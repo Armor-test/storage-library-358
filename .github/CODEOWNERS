@@ -1,0 +1,40 @@
+# CODEOWNERS file for storage-library-358
+# Global owners - will be requested for all PRs
+* @Armor-test/team-research @Armor-test/dept-ui @Armor-test/dept-reliability
+
+# Directory ownership
+/test/ @Armor-test/grp-api @Armor-test/dept-ui @Armor-test/squad-mobile
+/models/ @Armor-test/dept-test @Armor-test/dept-reliability
+/auth/ @Armor-test/squad-cache @Armor-test/dept-billing @Armor-test/squad-api
+/static/ @Armor-test/dept-notifications @Armor-test/squad-cloud
+/deploy/ @Armor-test/dept-test @Armor-test/squad-product @Armor-test/dept-security
+/scripts/ @Armor-test/unit-test @Armor-test/unit-cloud
+/api/ @Armor-test/squad-ml @Armor-test/dept-release @Armor-test/team-governance
+/data/ @Armor-test/unit-cloud @Armor-test/squad-ml
+/components/ @Armor-test/team-governance @Armor-test/dept-reliability
+/assets/ @Armor-test/squad-payments @Armor-test/grp-api @Armor-test/team-core
+/views/ @Armor-test/unit-cloud @Armor-test/squad-product
+/middleware/ @Armor-test/squad-payments @Armor-test/squad-performance @Armor-test/grp-payments
+/core/ @Armor-test/dept-release @Armor-test/unit-devops
+
+# File type ownership
+*.sql @Armor-test/dept-security @Armor-test/unit-devops
+*.tf @Armor-test/unit-design @Armor-test/squad-payments
+*.cpp @Armor-test/squad-ml @Armor-test/grp-ui @Armor-test/squad-payments
+*.lock @Armor-test/squad-qa @Armor-test/team-reporting @Armor-test/dept-automation
+*.cs @Armor-test/squad-tooling @Armor-test/grp-api
+*.yaml @Armor-test/squad-performance @Armor-test/grp-payments
+*.jsx @Armor-test/team-reporting @Armor-test/squad-search
+*.h @Armor-test/dept-identity @Armor-test/dept-reliability @Armor-test/unit-cloud
+*.sh @Armor-test/dept-identity @Armor-test/squad-cache @Armor-test/squad-research
+*.proto @Armor-test/squad-ux @Armor-test/squad-frontend @Armor-test/squad-api
+*.ts @Armor-test/squad-payments @Armor-test/unit-design @Armor-test/team-security
+*.scala @Armor-test/grp-storage @Armor-test/dept-security
+*.ini @Armor-test/team-security @Armor-test/grp-api @Armor-test/dept-reporting
+*.py @Armor-test/dept-test @Armor-test/squad-tooling @Armor-test/dept-reporting
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
